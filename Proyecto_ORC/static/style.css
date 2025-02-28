@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../static/fondo2.jpg'); /* Ruta a la imagen */
+    background-size: cover;  /* La imagen cubre toda la pantalla */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen al hacer scroll */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos */
+h1, h2 {
+    color: #eee;
+}
+
+/* Video en vivo */
+.video-container {
+    margin-top: 20px;
+}
+#video-feed {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+/* Contenedor de texto extraído */
+.text-output {
+    margin-top: 20px;
+    background: black;
+    padding: 15px;
+    border-radius: 8px;
+    height: 200px;  /* Altura fija para que sea visible */
+    overflow-y: auto; /* Permite desplazamiento */
+    border: 1px solid #ccc;
+}
+
+/* Texto extraído */
+#text-container {
+    text-align: left;
+    max-height: 100%;
+    overflow-y: auto;
+    padding: 10px;
+}
+#text-container p {
+    background: white;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Botones */
+.buttons {
+    margin-top: 15px;
+}
+button {
+    background-color: rgba(0, 0, 0, 0.4);
+
+    color: white;
+     border: 2px solid white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+}
+button:hover {
+    background-color: #386FA4;
+}
+h1 {
+    font-family:  'Lobster', cursive; /* Cambia la fuente */
+    font-size: 46px; /* Tamaño de la letra */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+    color: #ffffff; /* Color del texto */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
